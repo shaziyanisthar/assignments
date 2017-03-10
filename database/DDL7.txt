@@ -1,0 +1,5 @@
+CREATE TABLE `assignments`.`tbl_classes` (
+`pk_int_class_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`vchr_class_name` VARCHAR( 10 ) NOT NULL ,
+`fk_int_dept_id` INT( 10 ) NOT NULL
+) ENGINE = MYISAM ;

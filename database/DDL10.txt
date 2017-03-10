@@ -1,0 +1,1 @@
+alter table tbl_dept add vchr_dept_description varchar(20)

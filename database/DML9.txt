@@ -1,0 +1,1 @@
+INSERT INTO `assignments`.`tbl_dept` (`pk_int_dept_id`, `vchr_dept_name`, `vchr_dept_description`) VALUES ('1', 'c.s', 'CS'), ('2', 'electronics', 'EC'), ('3', 'commerce', 'CC'), ('4', 'arts', 'AR');

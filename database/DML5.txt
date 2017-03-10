@@ -1,0 +1,4 @@
+SELECT * 
+FROM  `tbl_stock` 
+ORDER BY  `vchr_name` 
+LIMIT 0 , 3

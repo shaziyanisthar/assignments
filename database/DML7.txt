@@ -1,0 +1,5 @@
+SELECT  `vchr_name` ,  `int_quantity` ,  `int_price` , (
+int_quantity * int_price
+)
+FROM  `tbl_stock` 
+LIMIT 0 , 30

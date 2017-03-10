@@ -1,0 +1,1 @@
+INSERT INTO `assignments`.`tbl_supplier` (`pk_int_supplier_id`, `vchr_supplier_name`) VALUES ('1', 'logitech'), ('2', 'samsung'), ('3', 'iball'), ('4', 'LG'), ('5', 'creative');

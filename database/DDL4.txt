@@ -1,0 +1,2 @@
+alter table tbl_stock
+add fk_int_supplier integer(10);

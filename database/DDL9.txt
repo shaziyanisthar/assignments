@@ -1,0 +1,3 @@
+ALTER TABLE  `tbl_classes` ADD UNIQUE (
+`vchr_class_name`
+)

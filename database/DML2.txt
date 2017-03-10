@@ -1,0 +1,1 @@
+UPDATE `assignments`.`tbl_stock` SET `int_price` = 'int_price'+'1.5'

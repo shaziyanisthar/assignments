@@ -1,0 +1,8 @@
+CREATE TABLE `assignments`.`tbl_student` (`pk_int_roll_no` INT( 10 ) NOT NULL ,
+`int_enrollment_no` INT( 10 ) NOT NULL ,
+`vchr_name` VARCHAR( 10 ) NOT NULL ,
+`vchr_city` VARCHAR( 10 ) NOT NULL ,
+`vchr_mobileno` VARCHAR( 10 ) NOT NULL ,
+`dat_dob` DATE NOT NULL ,
+`bln_status` VARCHAR( 10 ) NOT NULL ,
+PRIMARY KEY ( `pk_int_roll_no` )) ENGINE = MYISAM ;

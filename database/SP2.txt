@@ -1,0 +1,5 @@
+CREATE TABLE  `assignments`.`tbl_` (
+`fk_int_roll_no` INT( 10 ) NOT NULL foriegn key references tbl_student(pk_int_roll_no)',
+`vchr_course` VARCHAR( 10 ) NOT NULL ,
+`vchr_grade` VARCHAR( 10 ) NOT NULL
+) ENGINE = MYISAM ;

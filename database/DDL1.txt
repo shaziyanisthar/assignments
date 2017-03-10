@@ -1,0 +1,7 @@
+
+
+
+CREATE TABLE `assignments`.`tbl_stock` (`pk_int_stock_Id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`vchr_name` VARCHAR( 10 ) NOT NULL ,
+`int_quantity` INT( 10 ) NOT NULL ,
+`int_price` INT( 10 ) NOT NULL) ENGINE = MYISAM ;

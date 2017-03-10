@@ -1,0 +1,4 @@
+CREATE TABLE `assignments`.`tbl_supplier` (
+`pk_int_supplier_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`vchr_supplier_name` VARCHAR( 10 ) NOT NULL
+) ENGINE = MYISAM ;

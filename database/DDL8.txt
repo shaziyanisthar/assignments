@@ -1,0 +1,5 @@
+
+CREATE TABLE `assignments`.`tbl_enrollment` (`pk_int_enrollment_id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`int_count` INT( 10 ) NOT NULL ,
+`fk_int_class_id` INT( 10 ) FOREIGN KEY
+REFERENCES tbl_classes(pk_int_class_id) NOT NULL) ENGINE = MYISAM ;

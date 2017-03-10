@@ -1,0 +1,4 @@
+CREATE TABLE `assignments`.`tbl_dept` (
+`pk_int_dept_id` INT( 20 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`vchr_dept_name` VARCHAR( 20 ) NOT NULL
+) ENGINE = MYISAM ;

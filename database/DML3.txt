@@ -1,0 +1,3 @@
+SELECT * 
+FROM  `tbl_stock` 
+WHERE int_price >1000;

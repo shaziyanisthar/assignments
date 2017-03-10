@@ -1,0 +1,4 @@
+ALTER TABLE tbl_stock
+ADD FOREIGN KEY (fk_int_supplier)
+REFERENCES tbl_supplier(pk_int_supplier_id)
+

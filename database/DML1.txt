@@ -1,0 +1,21 @@
+INSERT INTO  `assignments`.`tbl_stock` (
+
+`pk_int_stock_Id` ,
+`vchr_name` ,
+`int_quantity` ,
+`int_price` ,
+`fk_int_supplier`
+)
+VALUES (
+'1',  'mouse',  '10',  '500',  '1'
+), (
+'2',  'keyboard',  '5',  '450',  '3'
+),(
+'3',  'modem',  '10',  '1200',  '2'
+),(
+'4',  'memory',  '100',  '1500',  '5'
+),(
+'5',  'headphone',  '50',  '750',  '4'
+)(
+'6',  'memory',  '2',  '3500',  '4'
+)
